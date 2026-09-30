@@ -1,0 +1,9 @@
+{
+  "short_name": "Munkaidő",
+  "name": "Munkaidő-nyilvántartó",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a"
+}

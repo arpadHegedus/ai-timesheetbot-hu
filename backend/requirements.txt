@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic-settings>=2.4
+langgraph>=0.2
+google-genai>=1.0
+google-auth>=2.30
+PyJWT>=2.8
+requests>=2.31
+reportlab>=4.2
+google-cloud-firestore>=2.19
