@@ -8,7 +8,7 @@ ARG VITE_GOOGLE_CLIENT_ID
 RUN npm run build
 
 FROM python:3.12-slim
-RUN apt-get update && apt-get install -y --no-install-recommends nginx supervisor fonts-dejavu-core \
+RUN apt-get update && apt-get install -y --no-install-recommends nginx supervisor fonts-dejavu-core curl \
     && rm -rf /var/lib/apt/lists/* /etc/nginx/sites-enabled/default
 WORKDIR /app
 COPY backend/requirements.txt .
